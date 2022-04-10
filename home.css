@@ -1,0 +1,650 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #F8F6F1;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
+
+ul{
+	list-style: none;
+}
+
+/* NAVBAR */
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 66px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(90.22deg, rgba(248, 246, 241, 0.25) 3.84%, rgba(248, 246, 241, 0.25) 95.16%);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid;
+    border-bottom-color: #E2DCCE;
+}
+
+.navbar{
+    margin: 0px 210px;  
+    background: none;   
+}
+
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+    padding: 23px;
+    justify-content: space-between
+    text-align: center;
+    background: none;
+}
+
+.navbar ul li{
+    text-decoration: none;
+    flex:1;
+    background: none;
+}
+
+.navbar ul li a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    background: none;
+}
+
+.navbar ul li a:hover {
+  color: #7B7942;
+}
+
+/* INTRODUCTION */
+
+.introduction{
+    margin: 90px 230px;
+    display:flex;
+    padding-top: 70px;
+}
+
+.introtext{
+    flex:3;
+    padding-right: 30px;
+}
+
+.introimage{
+    flex:1; 
+}
+
+.introimage img{
+    height: 340px;
+    border-radius: 50%;
+    margin: 20px 0px 20px 40px;
+}
+
+.introimage:hover {
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+.introheading{
+  font-family: Mistral;
+  font-weight: SemiBold;
+  font-size: 40px;
+}
+
+.intropara{
+    font-family: Raleway;
+    font-weight: semi-bold;
+    display:flex;
+    font-size: 14px;
+    color: black;
+    font-style: normal;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    flex-direction: column;
+}
+
+.intropara1{
+    padding-top: 20px;
+}
+
+.intropara2{
+    padding-top: 15px;
+}
+
+.intropara3{
+    padding-top: 15px;
+}
+
+.intropara4{
+    font-family: Mistral;
+    font-weight: SemiBold;
+    font-size: 22px;
+    padding-top: 10px;
+    color: #7d7d45;
+}
+
+
+/* DESIGN PROCESS */
+
+.mydesignprocess{
+    margin: 90px 230px;
+    padding-top: 70px;
+}
+
+.designcard{
+    display:flex;
+}
+
+.designcard1, .designcard2, .designcard3{
+  flex: 1;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: semi-bold;
+  display:flex;
+  font-size: 18px;
+  color: black;
+  font-style: normal;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  flex-direction: column;
+} 
+
+.designcardimg img{
+    height: 170px;
+    width: 290px;
+    margin: 5px 5px 20px 5px;
+    border-radius: 5px;
+}
+
+.designcardimg:hover {
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+.mydesignheading{
+    font-family: Mistral;
+    font-weight: SemiBold;
+    font-size: 40px;
+    padding-bottom: 45px;
+}
+
+.designcardtext{
+    font-family: Raleway;
+    font-weight: Bold;
+}
+
+/* Design tools */
+
+.designtools{
+    margin: 90px 230px;
+    padding-top: 70px;
+}
+
+.designtoolsheading{
+    font-family: Mistral;
+    font-weight: SemiBold;
+    font-size: 40px; 
+    padding-bottom: 45px;
+}
+
+.designtoolslogo ul{
+    display:flex;
+}
+
+.designtoolslogo ul li{
+    flex:1;
+}
+
+.designtoolslogo ul li img{
+    flex:1;
+    height: 50px;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.designtoolslogo ul li:hover {
+    transform: scale(1.108);
+    transition: transform .5s;
+}
+
+/* Experience */
+
+.experience{
+    margin: 90px 230px; 
+    padding-top: 70px;
+}
+
+.experienceheading{
+    font-family: Mistral;
+    font-weight: SemiBold;
+    font-size: 40px; 
+    padding-bottom: 45px; 
+}
+
+.expcard{
+    margin: 0px 0px 40px 0px;
+}
+
+.expcardheading{
+    display:flex;
+    justify-content: space-between;
+    color: #7d7d45;
+    margin-bottom: 17px;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.expcardheading a{
+    text-decoration: none;
+    color: #7d7d45;
+    margin-bottom: 17px;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+}
+
+.expcardheading:hover {
+    transform: scale(1.01);
+    transition: transform .5s;
+}
+
+.expcarddetails{
+    font-family: Raleway;
+    font-weight: SemiBold;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 0.05em;
+}
+
+/* Education */
+
+.education{
+    margin: 90px 230px;
+    padding-top: 70px; 
+}
+
+.educationheading{
+    font-family: Mistral;
+    font-weight: SemiBold;
+    font-size: 40px; 
+    padding-bottom: 45px; 
+}
+
+.educard{
+    margin: 0px 0px 40px 0px;
+}
+
+.educardheading{
+    display:flex;
+    justify-content: space-between;
+    color: #7d7d45;
+    margin-bottom: 17px;
+    font-family: Raleway;
+    font-weight: Bold;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+}
+
+.educarddetails{
+    font-family: Raleway;
+    font-weight: SemiBold;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+
+/* Footer */
+
+footer{
+    padding-top: 30px;  
+    display:flex;
+    justify-content: baseline;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid;
+    border-top-color: #E2DCCE;
+}
+
+.fleft{
+    flex: 1;
+    text-align: center;
+    color: #4A4A48;
+    font-size: 18px;
+}
+
+.fleft a:hover {
+  color: #7B7942;
+}
+
+.fright{
+    flex:1;
+    position:relative;
+    margin-right: 100px; 
+}
+
+.fright ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.fright ul li{
+    flex: 1;
+}
+
+.fright ul li:hover {
+    transform: scale(1.05);
+    transition: transform .3s;
+}
+
+.fright ul li img{
+    flex:1;
+    height: 27px;
+    justify-content: space-between;
+}
+
+.fright ul li img:hover {
+  color: #7B7942;
+}
+
+/* MY DESIGNS */
+
+.designsection{
+    margin: 90px 230px; 
+    padding-top: 90px; 
+}
+
+.designheading{
+    font-family: Mistral;
+    font-weight: SemiBold;
+    font-size: 40px; 
+    padding-bottom: 30px; 
+}
+
+.designs{
+    display:flex;
+    text-align: center;
+}
+
+.designscol1,.designscol1, .designscol1 {
+    flex: 1;
+    text-align: center;
+}
+
+.designsimg img{
+    height: 180px;
+    width: 266px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.designsname{
+    font-family: Raleway;
+    font-weight: Bold;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.designsname a:hover {
+  color: #7B7942;
+}
+
+.designsimg img:hover{
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+/* CASE STUDIES */
+
+.casestudies{
+    margin: 90px 230px; 
+    padding-top: 90px; 
+}
+
+.casestudiesheading{
+    font-family: Mistral;
+    font-weight: SemiBold;
+    font-size: 40px; 
+    padding-bottom: 30px; 
+}
+
+.casestudycards{
+    display:flex;
+    text-align: center;
+}
+
+.casestudycardscol1, .casestudycardscol2, .casestudycardscol3 {
+    flex: 1;
+    text-align: center;
+}
+
+.casestudycardsimg img{
+    height: 180px;
+    width: 266px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.casestudycardsname{
+    font-family: Raleway;
+    font-weight: Bold;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.casestudycardsname a:hover {
+  color: #7B7942;
+}
+
+.casestudycardsimg img:hover{
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+/* BLOGS */
+
+.writeups{
+    margin: 90px 230px; 
+    padding-top: 90px;
+}
+
+.writeupsheading{
+    font-family: Mistral;
+    font-weight: SemiBold;
+    font-size: 40px; 
+    padding-bottom: 30px; 
+}
+
+.writeupscards{
+    display:flex;
+    text-align: center;
+}
+
+.writeupscardscol1, .writeupscol2, .writeupscol3 {
+    flex: 1;
+    text-align: center;
+}
+
+.writeupsimg img{
+    height: 180px;
+    width: 266px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.writeupsname{
+    font-family: Raleway;
+    font-weight: Bold;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.writeupsname a:hover {
+  color: #7B7942;
+}
+
+.writeupsimg img:hover{
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+/* EVENTS */
+
+.events{
+    margin: 90px 230px; 
+    padding-top: 90px;
+}
+
+.eventsheading{
+    font-family: Mistral;
+    font-weight: SemiBold;
+    font-size: 40px; 
+    padding-bottom: 30px; 
+}
+
+.eventscards{
+    display:flex;
+    text-align: center;
+}
+
+.eventscardscol1, .eventscol2, .eventscol3 {
+    flex: 1;
+    text-align: center;
+}
+
+.eventsimg img{
+    height: 180px;
+    width: 266px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.eventsname{
+    font-family: Raleway;
+    font-weight: Bold;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.eventsname a:hover {
+  color: #7B7942;
+}
+
+.eventsimg img:hover{
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+/* TESTIMONIALS */
+
+.testimonials{
+    margin: 90px 230px; 
+    padding-top: 90px;
+}
+
+.testimonialheading{
+    font-family: Mistral;
+    font-weight: SemiBold;
+    font-size: 40px; 
+    padding-bottom: 30px; 
+}
+
+.testcard{
+    display:flex;
+    padding: 20px;
+    background-color: #ded0ae;
+    box-shadow: 0px 4px 10px 0px #E4E1D7;
+    margin: 20px 0px 40px 0px;
+    border-radius: 5px;
+}
+
+.testimg{
+    flex:1;
+    background: none;
+}
+
+.testimg a{
+    background: none;
+}
+
+.testimg img{
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    background: none;
+}
+
+.testimg img:hover{
+    transform: scale(1.045);
+    transition: transform .5s;
+}
+
+.testcontent{
+    flex:4;
+    background: none;
+}
+
+.testhead{
+    display:flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+    background-color: #DED0AE;
+}
+
+.testauthor{
+    font-family: Raleway;
+    font-weight: Bold;
+    font-size: 18px;
+    background-color: #DED0AE;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    flex:1;
+}
+
+.testauthor a{
+    text-decoration: none;
+    background: none;
+}
+
+.testauthor a:hover {
+  color: #7B7942;
+}
+
+.testdesignation{
+    font-family: Raleway;
+    font-weight: SemiBold;
+    font-size: 14px;
+    padding: 0px 10px 0px 0px;
+    background-color: #DED0AE;
+    flex:2;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+}
+
+.testdate{
+    font-family: Raleway;
+    font-weight: SemiBold;
+    padding: 0px 10px 0px 0px;
+    background-color: #DED0AE;
+    flex:1;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    display:flex;
+    line-height: 23px;
+    justify-content: right;
+}
+
+.testdetails p{
+    font-family: Raleway;
+    font-weight: SemiBold;
+    margin: 15px 0px;
+    letter-spacing: 0.03em;
+    line-height: 23px;
+    font-size: 14px;
+    background-color: #DED0AE;
+}
